@@ -4,24 +4,24 @@ This report analyzes ten submitted markdown files, each serving as a guide or ch
 
 ## Overall Ranking (Best to Worst)
 
-| Rank | Anchor                                                       | File                                                     | Summary                                                                                          |
-| :--: | ------------------------------------------------------------ | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| 0    | [info](#1-wordpress-handover-protocol-definitivemd)          | **`wordpress-handover-protocol-definitive.md`**          | The most authoritative and educational guide, best for understanding the *why* behind each step. |
-| 1    | [info](#2-wordpress-comprehensive-developer-handoff-guidemd) | **`wordpress-comprehensive-developer-handoff-guide.md`** | The most practical and actionable *guides* for executing a handover.                             |
-| 2    | [info](#3-wordpress-transfer-ownership-checklistmd)          | **`wordpress-transfer-ownership-checklist.md`**          | The best pure *checklist* , striking an excellent balance between questions and context.         |
-| 3    | [info](#4-wordpress-handover-due-diligence-questionairemd)   | **`wordpress-handover-due-diligence-questionaire.md`**   | A highly effective and scannable checklist version of the top-ranked "Definitive Protocol."      |
-| 4    | [info](#5-wordpress-handover-complete-due-diligence-guidemd) | **`wordpress-handover-complete-due-diligence-guide.md`** | A strong guide with an excellent focus on legal and strategic due diligence.                     |
-| 5    | [info](#6-wordpress-handover-checklist-comprehensivemd)      | **`wordpress-handover-checklist-comprehensive.md`**      | A very good, actionable checklist with useful templates.                                         |
-| 6    | [info](#7-wordpress-project-takeover-due-diligence-guidemd)  | **`wordpress-project-takeover-due-diligence-guide.md`**  | A solid mid-tier document that combines a guide and a checklist.                                 |
-| 7    | [info](#8-wordpress-handoff-checklist-litemd)                | **`wordpress-handoff-checklist-lite.md`**                | A clean, simple checklist for quick, low-complexity handovers.                                   |
-| 8    | [info](#9-wordpress-handoff-checklist-basicmd)               | **`wordpress-handoff-checklist-basic.md`**               | A functional but very basic list of topics to cover.                                             |
-| 9    | [info](#10-wordpress-handoff-checklist-simplemd)             | **`wordpress-handoff-checklist-simple.md`**              | The most bare-bones document, serving as a simple question prompt.                               |
+| 🏅 | 📄                                                                    | 📝                                                                                              |
+| :-: | :--------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------- |
+| 🏅 | [Protocol Definitive](#1-1-wordpress-handover-protocol-definitivemd)     | The most authoritative and educational guide, best for understanding the *why* behind each step. |
+| 🥈 | [Dev2Dev Detail/Comp](#2-2a-wordpress-detailed-developer-handoff-guidemd) | The most practical and actionable *guides* for executing a handover.                             |
+| 🥈 | [Transfer Ownership](#3-3-wordpress-transfer-ownership-checklistmd)      | The best pure *checklist* , striking an excellent balance between questions and context.         |
+|  4  | [Due Diligence](#4-4-wordpress-handover-due-diligence-questionairemd)    | A highly effective and scannable checklist version of the top-ranked "Definitive Protocol."      |
+|  5  | [Complete](#5-5-wordpress-handover-complete-due-diligence-guidemd)       | A strong guide with an excellent focus on legal and strategic due diligence.                     |
+|  6  | [Comprehensive](#6-6-wordpress-handover-checklist-comprehensivemd)       | A very good, actionable checklist with useful templates.                                         |
+|  7  | [Takeover](#7-7-wordpress-project-takeover-due-diligence-guidemd)        | A solid mid-tier document that combines a guide and a checklist.                                 |
+|  8  | [Lite](#8-8-wordpress-handoff-checklist-litemd)                          | A clean, simple checklist for quick, low-complexity handovers.                                   |
+|  9  | [Basic](#9-9-wordpress-handoff-checklist-basicmd)                        | A functional but very basic list of topics to cover.                                             |
+| 10  | [Simple](#10-10-wordpress-handoff-checklist-simplemd)                     | The most bare-bones document, serving as a simple question prompt.                               |
 
 ---
 
-### Detailed Analysis
+## Detailed Analysis
 
-#### 1. `wordpress-handover-protocol-definitive.md`
+### 1. [`1-wordpress-handover-protocol-definitive.md`](https://github.com/dylarcher/docs.wp-handoff/blob/main/1-wordpress-handover-protocol-definitive.md)
 
 - **What it does well:**
   - **Authoritative Tone:** The document is written with a formal, academic tone that frames the handover not as a simple task, but as a critical process of risk mitigation. The use of citations reinforces its credibility.
@@ -31,7 +31,9 @@ This report analyzes ten submitted markdown files, each serving as a guide or ch
 - **Where it's lacking:**
   - **Actionability:** Due to its density and prose-heavy format, it is less effective as a scannable checklist to be used during a live handover meeting. It's more of an educational document to be studied beforehand.
 
-#### 2. `wordpress-comprehensive-developer-handoff-guide.md`
+### 2. [`2a-wordpress-detailed-developer-handoff-guide.md`](https://github.com/dylarcher/docs.wp-handoff/blob/main/2a-wordpress-detailed-developer-handoff-guide.md)
+
+Also refers to the [`2b-wordpress-complete-developer-handoff-guide.md`](https://github.com/dylarcher/docs.wp-handoff/blob/main/2b-wordpress-complete-developer-handoff-guide.md) document too.
 
 - **What it does well:**
   - **Excellent Structure:** These guides are exceptionally well-organized, moving logically from high-level strategy to granular technical details and final execution steps.
@@ -41,7 +43,7 @@ This report analyzes ten submitted markdown files, each serving as a guide or ch
 - **Where it's lacking:**
   - While extremely thorough, the explanatory prose is slightly less detailed than in the "Definitive Protocol," focusing more on the "how" than the deep "why."
 
-#### 3. `wordpress-transfer-ownership-checklist.md`
+### 3. [`3-wordpress-transfer-ownership-checklist.md`](https://github.com/dylarcher/docs.wp-handoff/blob/main/3-wordpress-transfer-ownership-checklist.md)
 
 - **What it does well:**
   - **Balanced Approach:** This document strikes a fantastic balance. It functions as a clear checklist while the "Detailed Considerations" sections provide essential context, explaining the importance of each area.
@@ -51,7 +53,7 @@ This report analyzes ten submitted markdown files, each serving as a guide or ch
 - **Where it's lacking:**
   - It is nearly flawless as a checklist. Its only "lacking" area is that it doesn't provide the deep, narrative-style education of the top-ranked guides, which is a deliberate and effective design choice for its format.
 
-#### 4. `wordpress-handover-due-diligence-questionaire.md`
+### 4. [`4-wordpress-handover-due-diligence-questionaire.md`](https://github.com/dylarcher/docs.wp-handoff/blob/main/4-wordpress-handover-due-diligence-questionaire.md)
 
 - **What it does well:**
   - **Scannability:** This document takes the comprehensive knowledge from the "Definitive Protocol" and formats it into a highly scannable and usable checklist with checkboxes.
@@ -60,7 +62,7 @@ This report analyzes ten submitted markdown files, each serving as a guide or ch
 - **Where it's lacking:**
   - It intentionally strips out the detailed explanatory prose found in its source document, making it less useful as a standalone educational tool. It is best used as a companion to the "Definitive Protocol."
 
-#### 5. `wordpress-handover-complete-due-diligence-guide.md`
+### 5. [`5-wordpress-handover-complete-due-diligence-guide.md`](https://github.com/dylarcher/docs.wp-handoff/blob/main/5-wordpress-handover-complete-due-diligence-guide.md)
 
 - **What it does well:**
   - **Strong Due Diligence Focus:** The guide excels in the early phases of a takeover, with a strong emphasis on legal, ownership, and strategic questioning.
@@ -68,7 +70,7 @@ This report analyzes ten submitted markdown files, each serving as a guide or ch
 - **Where it's lacking:**
   - It is more of a guide for inquiry and assessment than a complete operational protocol for executing the final handover. It lacks some of the actionable templates (e.g., deployment runbook, change log) found in the top-tier documents.
 
-#### 6. `wordpress-handover-checklist-comprehensive.md`
+### 6. [`6-wordpress-handover-checklist-comprehensive.md`](https://github.com/dylarcher/docs.wp-handoff/blob/main/6-wordpress-handover-checklist-comprehensive.md)
 
 - **What it does well:**
   - **Good Templates:** The inventory tables for credentials and plugins are well-designed and highly useful. The plugin audit table correctly identifies and flags risks.
@@ -76,7 +78,7 @@ This report analyzes ten submitted markdown files, each serving as a guide or ch
 - **Where it's lacking:**
   - It contains very little explanatory text. It is a list of "what" to check, but offers little insight into "why" these items are important, making it less helpful for less experienced users.
 
-#### 7. `wordpress-project-takeover-due-diligence-guide.md`
+### 7. [`7-wordpress-project-takeover-due-diligence-guide.md`](https://github.com/dylarcher/docs.wp-handoff/blob/main/7-wordpress-project-takeover-due-diligence-guide.md)
 
 - **What it does well:**
   - **Good Combination:** It effectively combines introductory text explaining the importance of due diligence with a comprehensive checklist at the end.
@@ -84,7 +86,7 @@ This report analyzes ten submitted markdown files, each serving as a guide or ch
 - **Where it's lacking:**
   - The structure feels a bit disjointed, almost like two separate documents (a guide and a checklist) were combined. The flow isn't as seamless as the top-ranked documents.
 
-#### 8. `wordpress-handoff-checklist-lite.md`
+### 8. [`8-wordpress-handoff-checklist-lite.md`](https://github.com/dylarcher/docs.wp-handoff/blob/main/8-wordpress-handoff-checklist-lite.md)
 
 - **What it does well:**
   - **Clarity and Simplicity:** It's a clean, well-organized, and easy-to-read checklist.
@@ -92,14 +94,14 @@ This report analyzes ten submitted markdown files, each serving as a guide or ch
 - **Where it's lacking:**
   - It lacks depth, templates, and any explanation of risk or best practices. It is not suitable for complex or mission-critical projects.
 
-#### 9. `wordpress-handoff-checklist-basic.md`
+### 9. [`9-wordpress-handoff-checklist-basic.md`](https://github.com/dylarcher/docs.wp-handoff/blob/main/9-wordpress-handoff-checklist-basic.md)
 
 - **What it does well:**
   - **Functional:** It serves its purpose as a simple list of topics to discuss.
 - **Where it's lacking:**
   - It's a very simple list of questions with minimal structure. It offers no guidance, templates, or context. It's more of a topic list than a checklist.
 
-#### 10. `wordpress-handoff-checklist-simple.md`
+### 10. [`10-wordpress-handoff-checklist-simple.md`](https://github.com/dylarcher/docs.wp-handoff/blob/main/10-wordpress-handoff-checklist-simple.md)
 
 - **What it does well:**
   - **Quick Prompt:** It can serve as a very quick memory jogger for an experienced developer who just wants a list of question categories.
