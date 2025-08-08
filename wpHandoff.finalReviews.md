@@ -31,58 +31,58 @@ A successful WordPress handover is not just about sharing files and passwords—
 
 ## 1. Project Overview & Intent
 
-- **What is the primary purpose of the website?**  
+- **What is the primary purpose of the website?**
   _Clarifies business goals and informs future decisions (e.g., e-commerce, lead generation, content hub)._
 
-- **Are there unique business rules or workflows?**  
+- **Are there unique business rules or workflows?**
   _Identifies custom logic or processes that may impact maintenance._
 
-- **How has the website evolved over time?**  
+- **How has the website evolved over time?**
   _Highlights major pivots, technical debt, or legacy features._
 
-- **What are the key performance indicators (KPIs) for success?**  
+- **What are the key performance indicators (KPIs) for success?**
   _Ensures future changes align with what matters most (sales, signups, traffic, etc.)._
 
 ---
 
 ## 2. Stakeholders & Roles
 
-- **Who are the main points of contact (client, stakeholders, etc.)?**  
+- **Who are the main points of contact (client, stakeholders, etc.)?**
   _Ensures clear communication lines and approval workflows._
 
-- **Who manages the website now, and who will after handover?**  
+- **Who manages the website now, and who will after handover?**
   _Defines responsibilities for content, technical, and business decisions._
 
-- **Who participated in the original planning/discovery phase?**  
+- **Who participated in the original planning/discovery phase?**
   _Provides context for historical decisions and future reference._
 
 ---
 
 ## 3. Ownership & Legal
 
-- **Do we fully own the website, code, and content after payment?**  
+- **Do we fully own the website, code, and content after payment?**
   _Prevents disputes over intellectual property and future access._
 
-- **Are there ongoing contracts (hosting, support, SLAs, etc.)?**  
+- **Are there ongoing contracts (hosting, support, SLAs, etc.)?**
   _Identifies recurring obligations and costs._
 
-- **Are there paid themes or plugins?**  
+- **Are there paid themes or plugins?**
   _List all with license info, renewal dates, and transfer steps._
 
-- **How is user data handled?**  
+- **How is user data handled?**
   _Ensures compliance with privacy regulations (GDPR, CCPA, etc.)._
 
 ---
 
 ## 4. Domain & Hosting
 
-- **What is the domain name and registrar?**  
+- **What is the domain name and registrar?**
   _Include login credentials, renewal date, and DNS management details._
 
-- **Who is the hosting provider and what is the plan?**  
+- **Who is the hosting provider and what is the plan?**
   _Include login, plan limits, renewal date, server type (shared, VPS, managed), and OS/version._
 
-- **Are there custom DNS records or CDN settings?**  
+- **Are there custom DNS records or CDN settings?**
   _Document all A, CNAME, MX, TXT, and CDN configurations._
 
 ---
@@ -243,10 +243,10 @@ A successful WordPress handover is not just about sharing files and passwords—
 
 - **Remove old users and revoke previous developer access**
 
-- **Exit Interview Questions:**  
-  - What are the most fragile or complex parts of the site?  
-  - If you had more time, what would you improve?  
-  - Are there any quirks, oddities, or manual workarounds?  
+- **Exit Interview Questions:**
+  - What are the most fragile or complex parts of the site?
+  - If you had more time, what would you improve?
+  - Are there any quirks, oddities, or manual workarounds?
   - What were the biggest challenges and lessons learned?
 
 ---
@@ -255,28 +255,28 @@ A successful WordPress handover is not just about sharing files and passwords—
 
 ### Master Credentials & Services Inventory Table
 
-| Service/Platform           | Purpose            | Login URL                                          | Username / Account Email                                      | Password Transfer Method | API Key (if applicable) | License/Subscription Cost | Renewal Date | Ownership Transfer Status |
-| -------------------------- | ------------------ | -------------------------------------------------- | ------------------------------------------------------------- | ------------------------ | ----------------------- | ------------------------- | ------------ | ------------------------- |
-| WordPress Admin            | Content Management | <https://yourdomain.com/wp-admin>                  | `new_admin_user`                                              | Shared via Bitwarden     | --                      | --                        | --           | :white_check_mark:        |
-| GoDaddy                    | Domain Registrar   | <https://dcc.godaddy.com/>                         | [owner@yourcompany.com](mailto:owner@yourcompany.com)         | To be reset by new owner | --                      | $19.99/year               | `2025-10-15` | Completed                 |
-| SiteGround Hosting         | Web Hosting        | <https://login.siteground.com/>                    | [owner@yourcompany.com](mailto:owner@yourcompany.com)         | To be reset by new owner | --                      | $299/year                 | `2025-09-01` | Completed                 |
-| Stripe                     | Payment Processing | <https://dashboard.stripe.com/>                    | [finance@yourcompany.com](mailto:finance@yourcompany.com)     | Existing account         | pk_live_...             | Transaction fees          | --           | Completed                 |
-| Cloudflare                 | CDN / Firewall     | <https://dash.cloudflare.com/>                     | [tech@yourcompany.com](mailto:tech@yourcompany.com)           | To be reset by new owner | \[Global API Key\]      | $20/month                 | Monthly      | Completed                 |
-| Mailchimp                  | Email Marketing    | <https://login.mailchimp.com/>                     | [marketing@yourcompany.com](mailto:marketing@yourcompany.com) | Existing account         | \[API Key\]             | $50/month                 | Monthly      | Completed                 |
-| Advanced Custom Fields PRO | Plugin License     | <https://www.advancedcustomfields.com/my-account/> | [developer@oldcompany.com](mailto:developer@oldcompany.com)   | Transfer license         | \[License Key\]         | $49/year                  | `2025-07-22` | _Pending_                 |
+| SERVICE                     | DETAILS             | ACCESS                                             | USER                                                      | EVENT/ACTION                 | TOKENS             | COSTS             | DUE BY      |
+| :------------------------- | :----------------- | :------------------------------------------------- | :------------------------------------------------------------ | :----------------------- | :----------------- | :--------------- | :----------- |
+| Content/Assets            | CMS | [WordPress Admin](https://yourdomain.com/wp-admin)                  | `new_admin_user`                                              | Shared via Bitwarden     | --                 | Free               | N/A           |
+| SSH/Domain                   | Registrar   | [GoDaddy](https://dcc.godaddy.com/)                         | [owner@org.com](mailto:owner@yourcompany.com)         | To be reset by new owner | --                 | $20      | `2025-10-15` |
+| Hosting         | Linux/Web        | [SiteGround](https://login.siteground.com/)                    | [owner@org.com](mailto:owner@yourcompany.com)         | To be reset by new owner | --                 | $299        | `2025-09-01` |
+| Payment                    | Processing | [Stripe](https://dashboard.stripe.com/)                    | [finance@org.com](mailto:finance@yourcompany.com)     | Existing account         | pk_live_&hellip;        | _TBD_ | --           |
+| Cloud                | CDN/Firewall     | [CloudFlare](https://dash.cloudflare.com/)                     | [tech@org.com](mailto:tech@yourcompany.com)           | To be reset by new owner | `GLOBAL_SECRET` | $12        | Monthly      |
+| Email                 | Marketing    | [MailChip](https://login.mailchimp.com/)                     | [marketing@org.com](mailto:marketing@yourcompany.com) | Existing account         | `API_KEY`        | $50        | Monthly      |
+| Plugin | License: `PRO`     | [Adv. Custom Fields](https://www.advancedcustomfields.com/my-account/) | [dev@co.com](mailto:developer@oldcompany.com)   | Transfer license         | `LICENSE_TOKEN`    | $25         | `2025-07-22` |
 
 ### Plugin & Theme Audit Table
 
-| Done? | Component Name             | Type         | SemVer   | Purpose                   | Premium/Free | License Key/Status         | Notes/Risks                                                                                 |
-| :---: | -------------------------- | ------------ | -------- | ------------------------- | ------------ | -------------------------- | ------------------------------------------------------------------------------------------- |
-|  [X]  | Astra                      | Parent Theme | `4.1.5`  | Base theme framework      | Freemium     | PRO license active         | Core visual framework; **DO NOT** edit directly.                                            |
-|  [ ]  | Astra Child                | Child Theme  | `1.x`    | Holds all custom CSS/PHP  | Custom       | `N/A`                      | All customizations should be made here.                                                     |
-|  [ ]  | WooCommerce                | Plugin       | `8.0.1`  | E-commerce functionality  | Free         | `N/A`                      | Critical for sales; complex settings.                                                       |
-|  [ ]  | Wordfence Security         | Plugin       | `^7.9.2` | Firewall & malware scan   | Premium      | Active - Renews 2025-01-30 | Firewall rules are configured; **DO NOT** deactivate.                                       |
-|  [ ]  | WP Rocket                  | Plugin       | `3.12.5` | Caching & performance     | Premium      | Active - Renews 2025-03-12 | Key for site speed. Purge cache after changes.                                              |
-|  [ ]  | Advanced Custom Fields PRO | Plugin       | `6.1.6`  | Manages all custom fields | Premium      | Missing/Expired            | **CRITICAL RISK** - Site layouts depend on this. **CANNOT UPDATE WITHOUT** a valid license. |
-|  [ ]  | Really Simple SSL          | Plugin       | `7.0.5`  | Manages SSL certificate   | Free         | `N/A`                      | **Redundant** - Hosting provides SSL. Can likely be removed after verification.             |
-|  [ ]  | Classic Editor             | Plugin       | `~1.6.3` | Disables Gutenberg editor | Free         | `N/A`                      | Indicates site may not be compatible with modern block editor. Creates technical debt.      |
+| NAME                       | KIND         | VERSION  | PURPOSE                   | COST     | TOKEN                      | NOTICE                                                                                      |
+| :------------------------- | :----------- | :------- | :------------------------ | :------- | :------------------------- | :------------------------------------------------------------------------------------------ |
+| Astra                      | Parent Theme | `4.1.5`  | Base theme framework      | Freemium | PRO license active         | Core visual framework; **DO NOT** edit directly.                                            |
+| Astra Child                | Child Theme  | `1.x`    | Holds all custom CSS/PHP  | Custom   | `N/A`                      | All customizations should be made here.                                                     |
+| WooCommerce                | Plugin       | `8.0.1`  | E-commerce functionality  | Free     | `N/A`                      | Critical for sales; complex settings.                                                       |
+| Wordfence Security         | Plugin       | `^7.9.2` | Firewall & malware scan   | Premium  | Active - Renews 2025-01-30 | Firewall rules are configured; **DO NOT** deactivate.                                       |
+| WP Rocket                  | Plugin       | `3.12.5` | Caching & performance     | Premium  | Active - Renews 2025-03-12 | Key for site speed. Purge cache after changes.                                              |
+| Advanced Custom Fields PRO | Plugin       | `6.1.6`  | Manages all custom fields | Premium  | Missing/Expired            | **CRITICAL RISK** - Site layouts depend on this. **CANNOT UPDATE WITHOUT** a valid license. |
+| Really Simple SSL          | Plugin       | `7.0.5`  | Manages SSL certificate   | Free     | `N/A`                      | **Redundant** - Hosting provides SSL. Can likely be removed after verification.             |
+| Classic Editor             | Plugin       | `~1.6.3` | Disables Gutenberg editor | Free     | `N/A`                      | Indicates site may not be compatible with modern block editor. Creates technical debt.      |
 
 > **Tip:** Attach all relevant files (configurations, SSH keys, documentation, license files) and ensure all credentials are up to date and securely stored.
 
