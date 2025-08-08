@@ -139,7 +139,7 @@ The method by which credentials are transferred is as important as the credentia
 To facilitate this critical process, the use of a centralized inventory document is strongly recommended. The following table provides a template for creating a single source of truth for all access points, which serves as both an inventory and a dynamic checklist for the transfer of ownership.
 
 | Service/Platform | Purpose | Login URL | Username / Account Email | Password Transfer Method | API Key (if applicable) | License/Subscription Cost | Renewal Date | Ownership Transfer Status |
-|------------------|-----------------|--------------------------------------------------|-------------------------------------------------------------|------------------------|-----------------------|-------------------------|------------|-------------------------|
+|---|---|---|---|---|---|---|---|---|
 | WordPress Admin | Content Management | <https://yourdomain.com/wp-admin> | `new_admin_user` | Shared via Bitwarden | -- | -- | -- | [x] Completed |
 | GoDaddy | Domain Registrar | <https://dcc.godaddy.com/> | [owner@yourcompany.com](mailto:owner@yourcompany.com) | To be reset by new owner | -- | $19.99/year | `2025-10-15` | Completed |
 | SiteGround Hosting | Web Hosting | <https://login.siteground.com/> | [owner@yourcompany.com](mailto:owner@yourcompany.com) | To be reset by new owner | -- | $299/year | `2025-09-01` | Completed |
