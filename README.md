@@ -16,11 +16,11 @@ This datatable summarizes the three core docs, outlining purpose, usage, respons
 
 > Each document targets a specific phase of the WordPress ownership transfer workflow process. Broken into three stages.
 
-| WHAT (docs)                     | WHY (purpose)                             | HOW (intent)                                     | WHEN (where)                                                     | WHO (for)           |
-| ------------------------------- | ----------------------------------------- | ------------------------------------------------ | ---------------------------------------------------------------- | ------------------- |
-| [DetailedInfo](#1-detailedinfo) | In-depth technical and operational guide. | Equip developers w/comprehensive project guides. | Use **during the initial review**: deep technical understanding. | Detailed, Technical |
-| [TaskProgress](#2-taskprogress) | Detailed reviewable handoff task indexes. | Track and complete every required handover task. | Use **throughout the handover** to ensure tasks are not skipped. | Itemized, Checklist |
-| [FinalReviews](#3-finalreviews) | Complete handover tasks review checklist. | Ensure all steps/tasks are tracked and verified. | Use **during final handover** to confirm every task is complete. | Complete, Task List |
+| Docs                             | Purpose                                   | Intent                                           | Use Cases                                                        |
+| :------------------------------- | :---------------------------------------- | :----------------------------------------------- | :--------------------------------------------------------------- |
+| [detailedinfo](#1-detailedinfo) | In-depth technical and operational guide. | Equip developers w/comprehensive project guides. | Use <ins>during the initial review</ins> (`technical`) understanding. |
+| [taskprogress](#2-taskprogress) | Detailed reviewable handoff task indexes. | Track and complete every required handoff task. | Use <ins>throughout the handoff</ins> to ensure tasks are not skipped. |
+| [finalreviews](#3-finalreviews) | Complete handoff tasks review checklist. | Ensure all steps/tasks are finalized & verified. | Use <ins>during final handoff</ins> to confirm every task is completed. |
 
 ## Comprehensive Detailed Info
 
@@ -28,20 +28,20 @@ A summary of each comprehensive docs, including detailed descriptions, intended 
 
 > Each doc is designed to address specific aspects for a phased transfer process: `Introduction, Execution, Completion`.
 
-### 1. [DetailedInfo](wpHandOff.detailedInfo.md)
+### 1. [Detailed Info](wpHandOff.detailedInfo.md)
 
 - **PURPOSE:** This is a comprehensive, developer-focused guide that provides a deep dive into the technical and operational aspects of a WordPress project. It is designed to be a single source of truth for the incoming development team.
-- **INTENDS:** To provide a detailed, actionable guide for developers, covering everything from high-level strategy to granular technical details. It includes practical templates and checklists to ensure a thorough and secure handover.
+- **INTENDS:** To provide a detailed, actionable guide for developers, covering everything from high-level strategy to granular technical details. It includes practical templates and checklists to ensure a thorough and secure handoff.
 - **USECASE:** Once you have a high-level understanding of the project, use this guide for a deep dive into the technical and operational details. This document is essential for the incoming development team to fully understand the project's architecture and workflows.
 
-### 2. [TaskProgress](wpHandOff.taskProgress.md)
+### 2. [Task Progress](wpHandOff.taskProgress.md)
 
-- **PURPOSE:** This document is a high-level, indexed questionnaire that serves as a due diligence protocol. It is designed to be used at the beginning of the handover process to assess the project's health and identify potential risks.
+- **PURPOSE:** This document is a high-level, indexed questionnaire that serves as a due diligence protocol. It is designed to be used at the beginning of the handoff process to assess the project's health and identify potential risks.
 - **INTENDS:** To provide a structured set of questions that enable the incoming owner or team to proactively identify, assess, and mitigate the myriad risks inherent in the transition process.
 - **USECASE:** Start with this document. It's a high-level questionnaire that will help you assess the overall state of the project and identify potential risks early in the process. This is the ideal document for initial due diligence.
 
-### 3. [FinalReviews](wpHandOff.finalReviews.md)
+### 3. [Final Reviews](wpHandOff.finalReviews.md)
 
-- **PURPOSE:** This document is a comprehensive checklist that covers all the essential steps of a WordPress project handover. It is designed to be used as a practical tool during the handover process to ensure that no steps are missed.
-- **INTENDS:** To provide a structured framework that guides the handover process, ensuring that all critical tasks are completed and nothing is overlooked.
-- **USECASE:** Use this checklist throughout the handover process to track progress, confirm task completion, and facilitate communication between teams.
+- **PURPOSE:** This document is a comprehensive checklist that covers all the essential steps of a WordPress project handoff. It is designed to be used as a practical tool during the handoff process to ensure that no steps are missed.
+- **INTENDS:** To provide a structured framework that guides the handoff process, ensuring that all critical tasks are completed and nothing is overlooked.
+- **USECASE:** Use this checklist throughout the handoff process to track progress, confirm task completion, and facilitate communication between teams.
