@@ -18,7 +18,7 @@ This datatable summarizes the three core docs, outlining purpose, usage, respons
 
 | Docs                             | Purpose                                   | Intent                                           | Use Cases                                                        |
 | :------------------------------- | :---------------------------------------- | :----------------------------------------------- | :--------------------------------------------------------------- |
-| [detailedinfo](#1-detailedinfo) | In-depth technical and operational guide. | Equip developers w/comprehensive project guides. | Use <ins>during the initial review</ins> (`technical`) understanding. |
+| [detailedinfo](#1-detailedinfo) | In-depth technical and operational guide. | Equip developers w/comprehensive transfer guardrails. | Use <ins>during the initial review</ins> for a deep technical audit. |
 | [taskprogress](#2-taskprogress) | Detailed reviewable handoff task indexes. | Track and complete every required handoff task. | Use <ins>throughout the handoff</ins> to ensure tasks are not skipped. |
 | [finalreviews](#3-finalreviews) | Complete handoff tasks review checklist. | Ensure all steps/tasks are finalized & verified. | Use <ins>during final handoff</ins> to confirm every task is completed. |
 
