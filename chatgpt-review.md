@@ -171,9 +171,28 @@
 
 ---
 
+## Addendum (Aug 2025): Updates from Claude, Gemini, and Grok
+
+Cross-AI consensus highlights:
+
+- Canonical guide: keep 2b as the single comprehensive developer handoff guide; merge unique “Actions”/depth from 2a into 2b.
+- Due diligence: merge 1 (Definitive Protocol) + 4 (Questionnaire) into one Executive Due Diligence Questionnaire; fix spelling to “questionnaire.”
+- Checklists: keep 6 (Comprehensive), 8 (Client Lite), 9 (rename in prose to “Standard”), 10 (Minimal prompt).
+- Specialized: keep 3 (ownership/legal) and 7 (takeover) as focused companions; 5 remains a strategic/legal due-diligence guide.
+
+Repo-wide improvements to apply everywhere:
+
+- Security-first: rotate secrets, enforce 2FA, revoke legacy access, audit keys/tokens at the top of every checklist.
+- Shared templates appendix: Master Inventory tables; Access request & revocation; Backup/Restore Drill SOP (with acceptance criteria); Deployment Runbook; Environment/Version matrix.
+- Consistency: normalize “handoff vs handover,” headings, capitalization, and anchors; fix typos (e.g., “questionaire” → “questionnaire”).
+- Actionability: add Owner/When/Status and acceptance criteria to checklists; add a Day 0/Day 1 runbook and a “Proof of Control” section (registrar, DNS, hosting, WP admin, WAF/CDN, backups, analytics) with evidence requirements.
+
+---
+
 Requirements coverage
 
 - Review each file: Done
 - Identify strengths and gaps: Done
 - Rank best to worst: Done
+- Integrate updates from Claude, Gemini, and Grok: Done
 - Write results to chatgpt-review.md: Done

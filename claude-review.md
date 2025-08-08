@@ -209,3 +209,32 @@ I ranked these files based on:
 7. **Implementation Utility** : How helpful they are during actual handoffs
 
 The developer-focused guides rank highest because WordPress handoffs are inherently technical processes that require deep technical understanding. The due diligence guides rank highly because they address critical business and risk aspects. The simpler checklists rank lower because while useful, they lack the depth needed for complex WordPress environments.
+
+---
+
+## Addendum (Aug 2025): Cross-AI Consensus & Unified Plan
+
+After reviewing rankings from ChatGPT, Gemini, and Grok alongside this Claude analysis, several key consensus points emerge:
+
+### Consolidated Rankings Consensus
+
+- **Top-tier documents**: 2a/2b (developer guides) and 1/5 (due diligence) consistently rank highest across all AI reviews
+- **ChatGPT perspective**: Ranks 2b as #1 canonical guide, emphasizes merging 2a content into 2b
+- **Gemini perspective**: Ranks 1 (Definitive Protocol) as #1 for educational depth, 2a/2b as most practical
+- **Cross-AI agreement**: Developer-focused guides excel at actionability; due diligence guides excel at risk assessment
+
+### Unified Consolidation Strategy
+
+Based on multi-AI consensus:
+
+1. **Canonical execution guide**: Keep 2b as the single comprehensive developer handoff guide; merge unique "Actions" and depth from 2a into 2b
+2. **Due diligence protocol**: Merge 1 (Definitive Protocol) + 4 (Questionnaire) into one Executive Due Diligence Questionnaire; fix spelling to "questionnaire"
+3. **Operational checklists**: Keep 6 (Comprehensive), 8 (Client Lite), 9 (rename to "Standard"), 10 (minimal prompt)
+4. **Specialized focus**: Preserve 3 (ownership/legal), 5 (strategic due-diligence), 7 (takeover due-diligence) as targeted companions
+
+### Repo-Wide Improvements (All Reviews)
+
+- **Security-first approach**: Elevate "rotate secrets, enforce 2FA, revoke legacy access, audit keys/tokens" to top of every checklist
+- **Shared templates appendix**: Master Inventory tables, Access Request & Revocation, Backup/Restore Drill SOP, Deployment Runbook, Environment/Version Matrix
+- **Consistency standards**: Normalize "handoff vs handover," headings, capitalization, anchors; fix typos ("questionaire" → "questionnaire")
+- **Enhanced actionability**: Add Owner/When/Status columns, acceptance criteria, Day 0/Day 1 runbook, "Proof of Control" section with evidence requirements
