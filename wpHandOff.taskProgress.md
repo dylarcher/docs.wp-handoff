@@ -1,8 +1,6 @@
 # The Definitive WordPress Handover Protocol
 
-## A Comprehensive Due Diligence Questionnaire
-
----
+> A Comprehensive Due Diligence Questionnaire
 
 ## Introduction
 
