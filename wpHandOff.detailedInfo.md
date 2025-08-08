@@ -186,8 +186,6 @@ Ensure a clean audit trail and secure access control by enforcing the Principle 
 
 ---
 
-<a id="server-access-ftpsftpssh"></a>
-
 ## Server access (FTP/SFTP/SSH)
 
 Direct file system access is necessary for advanced troubleshooting, deployment, and managing permissions.

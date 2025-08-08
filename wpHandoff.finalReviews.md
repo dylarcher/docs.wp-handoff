@@ -269,14 +269,14 @@ A successful WordPress handover is not just about sharing files and passwords—
 
 | Done? | Component Name             | Type         | SemVer   | Purpose                   | Premium/Free | License Key/Status         | Notes/Risks                                                                                 |
 | :---: | -------------------------- | ------------ | -------- | ------------------------- | ------------ | -------------------------- | ------------------------------------------------------------------------------------------- |
-|  ❌   | Astra                      | Parent Theme | `4.1.5`  | Base theme framework      | Freemium     | PRO license active         | Core visual framework; **DO NOT** edit directly.                                            |
-|  ❌   | Astra Child                | Child Theme  | `1.x`    | Holds all custom CSS/PHP  | Custom       | `N/A`                      | All customizations should be made here.                                                     |
-|  ❌   | WooCommerce                | Plugin       | `8.0.1`  | E-commerce functionality  | Free         | `N/A`                      | Critical for sales; complex settings.                                                       |
-|  ❌   | Wordfence Security         | Plugin       | `^7.9.2` | Firewall & malware scan   | Premium      | Active - Renews 2025-01-30 | Firewall rules are configured; **DO NOT** deactivate.                                       |
-|  ❌   | WP Rocket                  | Plugin       | `3.12.5` | Caching & performance     | Premium      | Active - Renews 2025-03-12 | Key for site speed. Purge cache after changes.                                              |
-|  ❌   | Advanced Custom Fields PRO | Plugin       | `6.1.6`  | Manages all custom fields | Premium      | Missing/Expired            | **CRITICAL RISK** - Site layouts depend on this. **CANNOT UPDATE WITHOUT** a valid license. |
-|  ❌   | Really Simple SSL          | Plugin       | `7.0.5`  | Manages SSL certificate   | Free         | `N/A`                      | **Redundant** - Hosting provides SSL. Can likely be removed after verification.             |
-|  ❌   | Classic Editor             | Plugin       | `~1.6.3` | Disables Gutenberg editor | Free         | `N/A`                      | Indicates site may not be compatible with modern block editor. Creates technical debt.      |
+|  [X]  | Astra                      | Parent Theme | `4.1.5`  | Base theme framework      | Freemium     | PRO license active         | Core visual framework; **DO NOT** edit directly.                                            |
+|  [ ]  | Astra Child                | Child Theme  | `1.x`    | Holds all custom CSS/PHP  | Custom       | `N/A`                      | All customizations should be made here.                                                     |
+|  [ ]  | WooCommerce                | Plugin       | `8.0.1`  | E-commerce functionality  | Free         | `N/A`                      | Critical for sales; complex settings.                                                       |
+|  [ ]  | Wordfence Security         | Plugin       | `^7.9.2` | Firewall & malware scan   | Premium      | Active - Renews 2025-01-30 | Firewall rules are configured; **DO NOT** deactivate.                                       |
+|  [ ]  | WP Rocket                  | Plugin       | `3.12.5` | Caching & performance     | Premium      | Active - Renews 2025-03-12 | Key for site speed. Purge cache after changes.                                              |
+|  [ ]  | Advanced Custom Fields PRO | Plugin       | `6.1.6`  | Manages all custom fields | Premium      | Missing/Expired            | **CRITICAL RISK** - Site layouts depend on this. **CANNOT UPDATE WITHOUT** a valid license. |
+|  [ ]  | Really Simple SSL          | Plugin       | `7.0.5`  | Manages SSL certificate   | Free         | `N/A`                      | **Redundant** - Hosting provides SSL. Can likely be removed after verification.             |
+|  [ ]  | Classic Editor             | Plugin       | `~1.6.3` | Disables Gutenberg editor | Free         | `N/A`                      | Indicates site may not be compatible with modern block editor. Creates technical debt.      |
 
 > **Tip:** Attach all relevant files (configurations, SSH keys, documentation, license files) and ensure all credentials are up to date and securely stored.
 
